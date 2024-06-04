@@ -24,6 +24,10 @@ input {
   width: 100%;
   padding: 8px;
 }
+input.inputError {
+  outline: 2px solid rgb(255, 60, 60);
+}
+
 .form > div > label {
   font-weight: bold;
   font-size: 20px;
@@ -35,7 +39,6 @@ input {
   background: transparent;
   color: #383535;
   font-size: 16px;
-  /* background-color: #f4dede; */
   border-bottom: 2px solid rgb(103, 48, 103);
   border-radius: 4px;
 }

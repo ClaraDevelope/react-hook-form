@@ -18,6 +18,7 @@ const Form = () => {
       <div className='userName-field'>
         <label htmlFor='userName'>😎 Nombre de usuario:</label>
         <input
+          className={formState.errors.userName ? 'inputError' : ''}
           type='text'
           {...register('userName', {
             required: {
